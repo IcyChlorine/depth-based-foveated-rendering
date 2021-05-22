@@ -906,9 +906,6 @@ void MainApplication::updateShadingRateImage(){
 
 
 void MainApplication::renderScene(){
-	//profile
-	float t[12];
-	t[0]=sysGetTime();
 	// remember: shading rate image only works offscreen, not on framebuffer 0
 	glBindFramebuffer(GL_FRAMEBUFFER, m_rd.fbo4render);
 	glFramebufferTexture(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, m_rd.tex.colorTexArray, 0);
@@ -919,7 +916,6 @@ void MainApplication::renderScene(){
 	glViewport(0, 0, m_rd.renderWidth, m_rd.renderHeight);
 	glClearBufferfv(GL_COLOR, 0, &background[0]);
 	glClearBufferfv(GL_DEPTH, 0, &depth);
-	t[1]=sysGetTime();
 
 	// renders shaded tori
 	// 真正渲染的地方
@@ -937,14 +933,11 @@ void MainApplication::renderScene(){
 	// set model UBO
 	glNamedBufferSubDataEXT(m_rd.buf.objectUbo, 0, sizeof(ObjectData), &m_rd.objectData);
 	glBindBufferBase(GL_UNIFORM_BUFFER, UBO_OBJECT, m_rd.buf.objectUbo);
-	t[2]=sysGetTime();
 	m_rd.model.Draw(m_rd.pm.get(m_rd.prog.sceneShader));
 #endif
-	t[3]=sysGetTime();
 	//this -> drawCross(0,0);
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
-	//printf("renerScene profile: (%.4f,%.4f,%.4f)\n",(t[1]-t[0])*1000,(t[2]-t[1])*1000,(t[3]-t[2])*1000);
 }
 void MainApplication::renderCompanionWindow(){
 	// Disable the variable rate shading before rendering the window and menu.

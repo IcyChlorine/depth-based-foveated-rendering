@@ -71,26 +71,16 @@ void MainApplication::think(double time)
 	this -> updateShadingRateImage();
 	this -> renderScene();
 #else
-	//lcj: 2021-5-22 performance profile
-		double t[12];
-		int ti=0;
-		t[ti++] = this->sysGetTime();
 	updateHMDMatrices();
-		t[ti++] = this->sysGetTime();
 	this -> updateSceneData(vr::Eye_Left);
-		t[ti++] = this->sysGetTime();
 	this -> updateShadingRateImage(vr::Eye_Left);
-		t[ti++] = this->sysGetTime();
 	this -> renderScene(vr::Eye_Left);
-		t[ti++] = this->sysGetTime();
 
 	this -> updateSceneData(vr::Eye_Right);
 	this -> updateShadingRateImage(vr::Eye_Right);
 	this -> renderScene(vr::Eye_Right);
 	
-		t[ti++] = this->sysGetTime();
 	this -> submit2VR();
-		t[ti++] = this->sysGetTime();
 #endif
 	glDisable(GL_DEPTH_TEST);
 	glDisable(GL_SHADING_RATE_IMAGE_NV);
@@ -98,15 +88,9 @@ void MainApplication::think(double time)
 	this -> predictGazePos();
 
 	this -> renderCompanionWindow();
-		t[ti++] = this->sysGetTime();
 
 	// render GUI
 	TwDraw();
-		t[ti++] = this->sysGetTime();
-
-		printf("profile: [%.4f,%.4f,%.4f](%.4f,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f) ms\n",
-			(t[8]-t[0])*1000, (t[4]-t[1])*1000, (t[5]-t[4])*1000,
-			(t[1]-t[0])*1000, (t[2]-t[1])*1000, (t[3]-t[2])*1000, (t[4]-t[3])*1000, (t[5]-t[4])*1000, (t[6]-t[5])*1000, (t[7]-t[6])*1000, (t[8]-t[7])*1000);
 }
 
 void MainApplication::resize(int width, int height)
