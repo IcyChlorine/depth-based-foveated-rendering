@@ -1,0 +1,9 @@
+# MTL written from Y:\Users\chcowan.NVIDIA.COM\Perforce\chcowan_CCOWANVISTA-DT_6024\sw\devrel\libdev\gi\dev\bugfix_main\demo\media\GI\san-miguel\light_block.obj
+newmtl Default
+newmtl blocker
+Kd 0 0 0
+Ns 256
+d 1
+illum 1
+Ka 0 0 0
+Ks 0 0 0

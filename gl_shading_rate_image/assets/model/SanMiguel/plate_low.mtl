@@ -1,0 +1,9 @@
+# MTL written from plate_low.obj
+newmtl Plato
+Kd 0.48 0.48 0.48
+Ns 1722.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.8 0.8 0.8
+map_Kd plato_a.png

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\CMakeFiles\e5be05623825a6860a6f3c87114c8a3f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F6D021BC-0A28-3CE0-94F6-EA15DE839BC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

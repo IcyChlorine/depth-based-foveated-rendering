@@ -1,0 +1,26 @@
+# MTL written from chair3_low.obj
+newmtl buttons
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd rust_a1.png
+newmtl chair
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd wood.3.Bubinga.png
+newmtl seat
+Kd 0.8 0.8 0.8
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.2 0.2 0.2
+map_Kd silla_d_piel.png
+map_Bump silla_d_piel_bump.png

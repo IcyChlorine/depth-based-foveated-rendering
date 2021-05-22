@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/CMakeLists.txt
+C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/cmake/FindGLEW.cmake

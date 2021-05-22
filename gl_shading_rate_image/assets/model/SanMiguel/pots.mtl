@@ -1,0 +1,65 @@
+# MTL written from pots.obj
+newmtl test:Forja_Macetas
+Kd 1 1 1
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.08 0.08 0.08
+map_Kd Forja_Macetas.png
+newmtl test:Maceta_A
+Kd 1 1 1
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Maceta_A_Color.png
+newmtl test:Maceta_A2
+Kd 1 1 1
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.5 0.5 0.5
+map_Kd Maceta_A2_Color.png
+newmtl test:Maceta_B
+Kd 1 1 1
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Maceta_B_Color.png
+newmtl test:Maceta_B2
+Kd 1 1 1
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.5 0.5 0.5
+map_Kd Maceta_B2_Color.png
+newmtl test:Maceta_C
+Kd 1 1 1
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.5 0.5 0.5
+map_Kd Maceta_C_Color.png
+newmtl test:Maceta_C2
+Kd 1 1 1
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.5 0.5 0.5
+map_Kd Maceta_C2_Color.png
+newmtl test:Maceta_D2
+Kd 1 1 1
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Maceta_D2_Color_0.png

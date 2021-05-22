@@ -1,0 +1,23 @@
+# MTL written from Y:\Users\chcowan.NVIDIA.COM\Perforce\chcowan_CCOWANVISTA-DT_6024\sw\devrel\libdev\gi\dev\bugfix_main\demo\media\GI\san-miguel\candle_final.obj
+newmtl Base2
+Kd 0 0 0
+Ns 98
+d 1
+illum 2
+Ka 0 0 0
+Ks 1 1 1
+map_Kd ceramic_tile.png
+newmtl Vela2
+Kd 0.78 0.76 0.72
+Ns 98
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+newmtl flame
+Kd 1 1 1
+Ns 256
+d 1
+illum 2
+Ka 1.0 0.65 0.25
+Ks 0 0 0

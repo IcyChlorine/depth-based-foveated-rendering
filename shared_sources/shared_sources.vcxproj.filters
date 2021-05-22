@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\AssetLoader.cpp">
+      <Filter>nv_helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\nv_dds.cpp">
+      <Filter>nv_helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\profiler.cpp">
+      <Filter>nv_helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\main_win32.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\AssetLoader.h">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\InertiaCamera.h">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\TimeSampler.h">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\WindowInertiaCamera.h">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\anttweakbar.hpp">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\cameracontrol.hpp">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\geometry.hpp">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\misc.hpp">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\nv_dds.h">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\profiler.hpp">
+      <Filter>nv_helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math.h">
+      <Filter>nv_math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math.inl">
+      <Filter>nv_math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math_glsltypes.h">
+      <Filter>nv_math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math_types.h">
+      <Filter>nv_math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{A16376D8-BD04-30C1-B350-01625CF3BCA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nv_helpers">
+      <UniqueIdentifier>{9095F8B7-4B3B-37CF-994E-15DACEA4848B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nv_math">
+      <UniqueIdentifier>{35113338-201B-3E03-8682-E06B539F2356}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

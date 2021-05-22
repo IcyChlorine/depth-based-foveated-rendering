@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BCDB9842-24A0-32E3-9051-BE035BDB4BA7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>shared_sources</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared_sources.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared_sources</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared_sources.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared_sources</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared_sources.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared_sources</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared_sources.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared_sources</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;RESOURCE_DIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/";NOMINMAX;PROJECT_RELDIRECTORY="../../gl_shading_rate_image/";PROJECT_ABSDIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/";PROJECT_NAME="gl_shading_rate_image";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;RESOURCE_DIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/\";NOMINMAX;PROJECT_RELDIRECTORY=\"../../gl_shading_rate_image/\";PROJECT_ABSDIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/\";PROJECT_NAME=\"gl_shading_rate_image\";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/";NOMINMAX;PROJECT_RELDIRECTORY="../../gl_shading_rate_image/";PROJECT_ABSDIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/";PROJECT_NAME="gl_shading_rate_image";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/\";NOMINMAX;PROJECT_RELDIRECTORY=\"../../gl_shading_rate_image/\";PROJECT_ABSDIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/\";PROJECT_NAME=\"gl_shading_rate_image\";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/";NOMINMAX;PROJECT_RELDIRECTORY="../../gl_shading_rate_image/";PROJECT_ABSDIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/";PROJECT_NAME="gl_shading_rate_image";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/\";NOMINMAX;PROJECT_RELDIRECTORY=\"../../gl_shading_rate_image/\";PROJECT_ABSDIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/\";PROJECT_NAME=\"gl_shading_rate_image\";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/";NOMINMAX;PROJECT_RELDIRECTORY="../../gl_shading_rate_image/";PROJECT_ABSDIRECTORY="C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/";PROJECT_NAME="gl_shading_rate_image";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RESOURCE_DIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/../shared_sources/resources/\";NOMINMAX;PROJECT_RELDIRECTORY=\"../../gl_shading_rate_image/\";PROJECT_ABSDIRECTORY=\"C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/\";PROJECT_NAME=\"gl_shading_rate_image\";USEOPENGL;USEANTTWEAKBAR;GLEW_STATIC;GLEW_NO_GLU;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\..\shared_sources;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image -BC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image --check-stamp-file C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/shared_sources/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\cmake\FindGLEW.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image -BC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image --check-stamp-file C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/shared_sources/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\cmake\FindGLEW.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image -BC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image --check-stamp-file C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/shared_sources/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\cmake\FindGLEW.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/shared_sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image -BC:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image --check-stamp-file C:/本研代码/集成眼动预测/VRWorks/variable_rate_shading_ogl/demo/gl_shading_rate_image/shared_sources/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\cmake\FindGLEW.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\shared_sources\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\AssetLoader.cpp" />
+    <ClInclude Include="..\..\shared_sources\openvr\openvr.h" />
+    <ClInclude Include="..\..\shared_sources\openvr\openvr_capi.h" />
+    <ClInclude Include="..\..\shared_sources\openvr\openvr_driver.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\AssetLoader.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\InertiaCamera.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\TimeSampler.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\WindowInertiaCamera.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\anttweakbar.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\cameracontrol.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\geometry.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\misc.hpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\nv_dds.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\nv_dds.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\profiler.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers\profiler.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math.inl" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math_glsltypes.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_math\nv_math_types.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\main.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\main_win32.cpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\wininternal_win32_gl.cpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\OpenGLText.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\OpenGLText.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\arial_10.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\arial_10_bitmap.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\baub_16.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\baub_16_bitmap.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\OpenGLText\tga.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\traceDisplay\trace.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\traceDisplay\tracedisplay.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\traceDisplay\tracedisplayogl.cpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\GLSLProgram.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\GLSLProgram.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\WindowInertiaCamera.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\WindowProfiler.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\WindowProfiler.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\error.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\glresources.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\glsltypes.hpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\nv_dds_gl.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\nv_dds_gl.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\profilertimersgl.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\profilertimersgl.hpp" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\programmanager.cpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\nv_helpers_gl\programmanager.hpp" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include\GL\glew.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include\GL\glxew.h" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\include\GL\wglew.h" />
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\glew\src\glew.c" />
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include\AntTweakBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\ZERO_CHECK.vcxproj">
+      <Project>{87B36C92-2680-364B-A4EA-AE7631CADB06}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

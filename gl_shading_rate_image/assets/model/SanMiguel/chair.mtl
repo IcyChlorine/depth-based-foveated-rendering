@@ -1,0 +1,28 @@
+# MTL written from chair.obj
+newmtl Sila_Forja_A_Metal
+Kd 0.25 0.25 0.25
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Fierro_A.png
+map_Ka Fierro_A.png
+newmtl Silla_C_Madera
+Kd 0.5 0.5 0.5
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BWK_1024.png
+map_Ka BWK_1024.png
+newmtl Silla_C_Tela
+Kd 0.5 0.5 0.5
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd tela_silla_b.png
+map_Ka tela_silla_b.png

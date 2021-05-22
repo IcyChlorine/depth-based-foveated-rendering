@@ -1,0 +1,982 @@
+newmtl MeshSG1
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.38 0.38 0.38
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd escurridera_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_marcos.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd mold_arco_01_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG9
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd concreto_01.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG11
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.15 0.15 0.15
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG13
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG15
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_a_color_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG17
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_a_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG19
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_a_color_3.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG23
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_b_color_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG25
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_b_color_3.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG27
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd columna_b_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG29
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd Fierro_A.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG31
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fierro_b.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG33
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rust_a1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG35
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd techo.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG37
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_barandal_esc_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG39
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd cantera_naranja_liso.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG41
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fuente_azulejo.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG43
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd piso_rustico.png
+map_Ks piso_rustico_spec.png
+map_bump piso_rustico_normal_InvG.jpg
+map_Kn piso_rustico_displace2.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG45
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fuente_piedra_02.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG47
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd pared_calle.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG49
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd concreto_02.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG51
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_q_patio2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG53
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd moldura2piso_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG57
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd candil_madera.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG59
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_l.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG61
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd arcos_lisos_2_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG63
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd arcos_lisos_3_color_1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG65
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG67
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG69
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG71
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd jardinera_1_color.png
+map_bump jardinera_1_Normal_InvG.jpg
+map_Kn jardinera_1_displacement_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG73
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fuente_piedra_01.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG75
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd pared_barro_afinado.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG77
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd techo_01.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG79
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd techo.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG81
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_05_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG83
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_04_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG85
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_03_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG87
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_06_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG89
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd moldura_volado.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG91
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_01_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG93
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd fierro_b.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG95
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd detmoldura_02_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG99
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd Vigas_A2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG101
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd escalera_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG103
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd piso_patio_exterior2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG105
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd marco_puerta_1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG109
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd losa.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG113
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_barandal_esc_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG115
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd puerta.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG117
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd moldura_volado.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG119
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG121
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.14 0.14 0.14
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG123
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd 052terresable.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG125
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd piso_patio_exterior.png
+map_bump piso_patio_exterior_Normal_InvG.jpg
+map_Kn piso_patio_exterior_displace_inv.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG127
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd postes_barandal_color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG129
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd arco_frente.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG131
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_triplay_01.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG133
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG135
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rust_a1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG137
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd molduraterraza__color.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG139
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd Barro_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG141
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7812.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG143
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7815.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG145
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd 0001_carros.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG147
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7833.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG149
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7843.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG151
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7812.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG153
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rust_detalle.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG157
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_b1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG159
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_b2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG161
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_m.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG163
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_c2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG165
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd moldura_techo.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG167
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_p_.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG169
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_f.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG171
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_h.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG173
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_e.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG175
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_n.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG177
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_a.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG179
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_q.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG181
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_q3.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG183
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_q4.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG185
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_g.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG187
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_d.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG189
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_k.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG191
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_j.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG193
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_l.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG195
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd muros_b.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG197
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_rustica_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG199
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7758.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG201
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7785.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG203
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd madera_rustica_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl MeshSG205
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7833.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG207
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd 027_Cola_Caballo_06-30-1997.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG209
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7768.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG211
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7833.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG213
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7833.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG215
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7843.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG217
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd D30_Smiguel_2003_7785.png
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl MeshSG219
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd rust_a1.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lamp1SG1
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl lamp1SG3
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.50 0.50 0.50
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 88.00
+newmtl lamp1SG5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.20 0.20 0.20
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl lamp1SG7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd metal_viejo_2.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 88.00
+newmtl trunksSG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd sm_tronco.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 32.30

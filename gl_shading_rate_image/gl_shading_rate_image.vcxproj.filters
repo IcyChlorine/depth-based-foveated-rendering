@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApplication_detail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="httpVisiting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApplication_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glpp\Shader.cpp">
+      <Filter>glpp</Filter>
+    </ClCompile>
+    <ClCompile Include="glpp\Texture.cpp">
+      <Filter>glpp</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image\stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="glpp\model.cpp">
+      <Filter>glpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\resources.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_external\AntTweakBar\include\AntTweakBar.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="httpVisiting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glpp\Shader.h">
+      <Filter>glpp</Filter>
+    </ClInclude>
+    <ClInclude Include="glpp\Texture.h">
+      <Filter>glpp</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image\stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\gtc\matrix_transform.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\noise.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\scene.frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\gl_shading_rate_image\scene.vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\本研代码\集成眼动预测\VRWorks\variable_rate_shading_ogl\demo\shared_sources\resources.rc">
+      <Filter>common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CAE66529-C623-300B-AFC7-6E827ACAAA8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{20513569-1FF8-3E27-B13C-BB31B921E719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{6559B8C0-0D33-3421-9F7B-691E7BFB77DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{113B8A9B-EB4A-36C5-94AE-4C4A50870FD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glpp">
+      <UniqueIdentifier>{5d612cee-19b2-4e7d-9c09-b8bd46ebf85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{778bc6bb-a42a-4059-a917-b16eb30e1aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glm">
+      <UniqueIdentifier>{62f1f2f7-8f1d-471a-b858-eeacd2b37b11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

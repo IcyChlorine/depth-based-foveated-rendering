@@ -1,0 +1,17 @@
+Loaded Glew
+initialized OpenGL basis
+
+All functions for GL_NV_shading_rate_image extension found!
+
+GL_SHADING_RATE_IMAGE_TEXEL_HEIGHT_NV = 16
+GL_SHADING_RATE_IMAGE_TEXEL_WIDTH_NV = 16
+GL_SHADING_RATE_IMAGE_PALETTE_SIZE_NV = 16
+
+Renderer: GeForce RTX 2080/PCIe/SSE2
+Vendor: NVIDIA Corporation
+Version: 4.6.0 NVIDIA 456.71
+
+scene.vert.glsl ...
+scene.frag.glsl ...
+ARB_debug : gl_shading_rate_image Medium - API - Performance : Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+ARB_debug : gl_shading_rate_image Medium - API - Performance : Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state, and was not found in the disk cache

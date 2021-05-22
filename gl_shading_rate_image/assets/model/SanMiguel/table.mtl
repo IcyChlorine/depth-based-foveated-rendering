@@ -1,0 +1,37 @@
+# MTL written from parts\table.obj
+newmtl Mesa_Madera
+Kd 0.5 0.5 0.5
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Vigas_B.png
+map_Ka Vigas_B.png
+newmtl Tela_Mesa_A
+Kd 0.5 0.5 0.5
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd tela_blanca.png
+map_Ka tela_blanca.png
+newmtl base
+Kd 0.25 0.25 0.25
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Fierro_A.png
+map_Ka Fierro_A.png
+newmtl stand
+Kd 0.25 0.25 0.25
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd Fierro_A.png
+map_Ka Fierro_A.png

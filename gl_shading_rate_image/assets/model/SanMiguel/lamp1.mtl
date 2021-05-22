@@ -1,0 +1,33 @@
+newmtl lamp1SG1
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.15 0.15 0.15
+Ns 90.16
+newmtl lamp1SG3
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.50 0.50 0.50
+Ni 1.00
+Ks 0.81 0.81 0.81
+Ns 194.08
+newmtl lamp1SG5
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.20 0.20 0.20
+Tf 0.20 0.20 0.20
+Ni 1.00
+Ks 0.91 0.91 0.91
+Ns 1843.76
+newmtl lamp1SG7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.20 0.20 0.20
+Tf 1.00 1.00 1.00
+map_Kd metal_viejo_2.png
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 90.16

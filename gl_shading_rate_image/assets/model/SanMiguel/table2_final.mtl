@@ -1,0 +1,9 @@
+# MTL written from Y:\Users\chcowan.NVIDIA.COM\Perforce\chcowan_CCOWANVISTA-DT_6024\sw\devrel\libdev\gi\dev\bugfix_main\demo\media\GI\san-miguel\table2_final.obj
+newmtl Mesa2
+Kd 1 1 1
+Ns 98
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd wood.3.Bubinga.png

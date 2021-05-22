@@ -1,0 +1,817 @@
+# MTL written from flowers.obj
+newmtl test:Azalea_1_Blutenb
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16pet1.png
+newmtl test:Azalea_1_Stengel
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16stm.png
+newmtl test:Azalea_1_blattg1
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef2.png
+newmtl test:Azalea_1_leafcal
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16lef3.png
+newmtl test:Azalea_2_Blutenb
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16pet1.png
+newmtl test:Azalea_2_blattg1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16lef1.png
+newmtl test:Azalea_2_leafcal
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL16lef3.png
+newmtl test:Cercis_CE01
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS01flo2.png
+newmtl test:Cercis_CE1c01
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS01flo1.png
+newmtl test:Cercis_leaves01
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS01lef.png
+newmtl test:Cercis_trunk
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS01brk.png
+newmtl test:Chusan_Palm_1_Base
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP19stm2.png
+newmtl test:Chusan_Palm_1_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP19lef2.png
+newmtl test:Chusan_Palm_1_Speer
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP19stm1.png
+newmtl test:Cinquefoil_1_Blatt1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15lef1.png
+newmtl test:Cinquefoil_1_Leafg1_
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15pet2.png
+newmtl test:Cinquefoil_1_Leafg1c
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15lef2.png
+newmtl test:Cinquefoil_1_Revo
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15cnt1.png
+newmtl test:Cinquefoil_1_S1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15stm.png
+newmtl test:Cinquefoil_1_kelchgr
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15cnt2.png
+newmtl test:Cinquefoil_2_Blatt1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15lef1.png
+newmtl test:Cinquefoil_2_Leafg1_
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15pet2.png
+newmtl test:Cinquefoil_2_Leafg1c
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL15lef2.png
+newmtl test:Default_wchrype
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29stm2.png
+newmtl test:Fern_1_Fan
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP17lef1.png
+newmtl test:Fern_3_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP17lef2.png
+newmtl test:Fern_3_Stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP17stm.jpg
+newmtl test:Fern_3_Stem2
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP17stm.png
+newmtl test:Ficus_1_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP11lef2.png
+newmtl test:Geranium_1_Flowerc
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13lef5.png
+newmtl test:Geranium_1_Kelchbl
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13lef4.png
+newmtl test:Geranium_1_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13lef1.png
+newmtl test:Geranium_1_Stem1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13stm.png
+newmtl test:Geranium_1_blbl1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13pet1.png
+newmtl test:Geranium_1_blbl3
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13pet2.png
+newmtl test:Geranium_1_blbl5
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL13pet3.png
+newmtl test:Hoja_Verde_A
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd l37-upper.png
+newmtl test:Ivy_1_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP13lef1.png
+newmtl test:Ivy_1_Tree
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP13stm2.png
+newmtl test:Ivy_2_Leaf2
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP13lef2.png
+newmtl test:Ivy_2_Tree
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP13stm2.png
+newmtl test:Lagerstroemia_base
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS04brk.png
+newmtl test:Lagerstroemia_leaves
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS04lef.png
+newmtl test:Lagerstroemia_petals
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BS04flo.png
+newmtl test:Mona_Lisa_1_Branch1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01stm1.png
+newmtl test:Mona_Lisa_1_Branch3
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01stm2.png
+newmtl test:Mona_Lisa_1_Flowerb
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01stm1.png
+newmtl test:Mona_Lisa_1_Flowers
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01stm1.png
+newmtl test:Mona_Lisa_1_Horn1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01stm2.png
+newmtl test:Mona_Lisa_1_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01lef2.png
+newmtl test:Mona_Lisa_1_Leaf2
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01lef1.png
+newmtl test:Mona_Lisa_1_flowerc
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01pet3.png
+newmtl test:Mona_Lisa_1_petal11
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01pet1.png
+newmtl test:Mona_Lisa_1_petal13
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd HP01pet1.png
+newmtl test:Mona_Lisa_2_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd citrus_limon_leaf.png
+newmtl test:Pansy_1_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19lef2.png
+newmtl test:Pansy_1_Leafcop
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19lef3.png
+newmtl test:Pansy_1_Leafsma
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19lef4.png
+newmtl test:Pansy_1_Stengel
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19stm.png
+newmtl test:Pansy_1_blblbac
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19pe13.png
+newmtl test:Pansy_1_blbll_c
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19pe16.png
+newmtl test:Pansy_1_blblr
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19pe14.png
+newmtl test:Pansy_1_blblu_c
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL19pe15.png
+newmtl test:Poinsettia_1_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29lef.png
+newmtl test:Poinsettia_1_Tree
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29stm1.png
+newmtl test:Poinsettia_1_Tree2_c
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29twg.png
+newmtl test:Poinsettia_1_bloss01
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29cnt2.png
+newmtl test:Poinsettia_1_blossom
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29cnt1.png
+newmtl test:Poinsettia_1_redleaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29pet1.png
+newmtl test:Poinsettia_1_smallre
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29pet2.png
+newmtl test:Poinsettia_2_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29lef.png
+newmtl test:Poinsettia_2_leaftru
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29twg.png
+newmtl test:Poinsettia_2_smallre
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL29pet2.png
+newmtl test:Rose_1_Blatt1_
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef1.png
+newmtl test:Rose_1_Blatt2
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef2.png
+newmtl test:Rose_1_Blutenb
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17pet5.png
+newmtl test:Rose_1_Kelchbl
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef6.png
+newmtl test:Rose_1_Kelchco
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17cnt.png
+newmtl test:Rose_1_Stil
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17stm.png
+newmtl test:Rose_2_Blatt1_
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef3.png
+newmtl test:Rose_2__Blutenb
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17pet1.png
+newmtl test:Rose_2__Kelch_c
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17cnt.png
+newmtl test:Rose_2__Kelchbl
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef5.png
+newmtl test:Rose_2__Stil
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17stm.png
+newmtl test:Rose_3_Blatt2
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17lef2.png
+newmtl test:Rose_3_Blutenb
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL17pet2.png
+newmtl test:aglaonema_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd aglaonema_leaf.png
+newmtl test:aglaonema_Tree
+Kd 0.870253 0.870253 0.870253
+Ns 92.16
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd aglaonema_bark.png
+newmtl test:brevipedunculata_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd TR14lef1.png
+newmtl test:brevipedunculata_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd ampelopsis_brevipedunculata_bark.png
+newmtl test:fragrans_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd dracaena_fragrans_leaf.png
+newmtl test:hybrids_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd citrus_limon_leaf.png
+newmtl test:hybrids_blossom
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd impatiens_newguinea_hybrids_petal.png
+newmtl test:hybrids_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd elaeagnus_umbellate_bark.png
+newmtl test:paniceum_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd TR02lef5.png
+newmtl test:paniceum_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd quercus_rubra_bark.png
+newmtl test:phyllostachya_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd BL05lef2.png
+newmtl test:phyllostachya_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd hypoestes_phyllostachya_bark.png
+newmtl test:verschaffeltii_Leaf1
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL03lef1.png
+newmtl test:verschaffeltii_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd fittonia_verschaffeltii_bark.png
+newmtl test:zebrina_Leaf
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd EU15lef.png
+newmtl test:zebrina_stem
+Kd 0.870253 0.870253 0.870253
+Ns 78.43
+d 1
+illum 2
+Ka 0 0 0
+Ks 0 0 0
+map_Kd FL24stm.png

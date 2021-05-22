@@ -1,0 +1,8 @@
+# MTL written from glass_low.obj
+newmtl Copas
+Kd 0.5 0.5 0.5
+Ns 200
+d 0.3
+illum 2
+Ka 0.01 0.01 0.01
+Ks 0.545098 0.545098 0.545098
